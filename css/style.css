@@ -2,7 +2,7 @@
     padding: 0;
 }
 #header{
-    background-image: url(../images/fabrizio-pullara-vHRFraV4U00-unsplash.jpg);
+    background-image: url(../images/pranjall-kumar-sejqj6Eaqe8-unsplash\ \(1\).jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,6 +13,33 @@
     height: 50vw;
     margin: auto;
 }
-.h1{
-    
+
+#header p{
+    font-family: 'Zhi Mang Xing', cursive;
+    margin: 0;
+    font-size: 30px;
+    color: #FE5A07;
+}
+.nav-items {
+    float: right;
+    margin: 0;
+    font-size: 18px;
+}
+#header .navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+li {
+    display: inline;
+    margin-right: 20px;
+}
+li a{
+    color: white;
+}
+li a:hover {
+    color: #FE5A07;
+}
+.content{
+    text-align: center;
+    padding: 18%;
 }
