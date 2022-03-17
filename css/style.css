@@ -1,0 +1,18 @@
+.container-fluid{
+    padding: 0;
+}
+#header{
+    background-image: url(../images/fabrizio-pullara-vHRFraV4U00-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    height: 50vw;
+    margin: auto;
+}
+.h1{
+    
+}
