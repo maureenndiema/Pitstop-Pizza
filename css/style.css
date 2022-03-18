@@ -86,3 +86,21 @@ b{
 #Order{
     text-align: center;
 }
+.order{
+    background-attachment: fixed;
+    background-image: url("/images/fabrizio-pullara-vHRFraV4U00-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    height: 60vw;
+  }
+  .order-overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+  }
