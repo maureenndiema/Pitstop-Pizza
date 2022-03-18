@@ -9,7 +9,7 @@
     background-attachment: fixed;
     text-align: center;
     color: rgb(19, 16, 16);
-    padding-top: 30px;
+    padding-top: 20px;
     height: 50vw;
     margin: auto;
 }
@@ -17,7 +17,7 @@
 #header p{
     font-family: 'Zhi Mang Xing', cursive;
     margin: 0;
-    font-size: 30px;
+    font-size: 20px;
     color: #ee670d;
 }
 .nav-items {
@@ -65,3 +65,21 @@ h1 {
   #head{
     padding-top: 10%;
   }
+  #ABOUT-US{
+      text-align: center;
+      padding: 50px 250px;
+      border: #000 none solid ;
+  }
+  .text{
+      margin-top: 0px;
+      margin-bottom: 0px;
+}
+.card-body{
+    height: 11rem;
+}
+b{
+    color: #FE5A07;
+}
+#menu{
+    text-align: center;
+}
