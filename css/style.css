@@ -1,160 +1,160 @@
-.container-fluid{
-    padding: 0;
+* {
+  font-family: "Poppins", sans-serif;
 }
-#header{
-    background-image: url(../images/pranjall-kumar-sejqj6Eaqe8-unsplash\ \(1\).jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    text-align: center;
-    color: rgb(19, 16, 16);
-    padding-top: 20px;
-    height: 50vw;
-    margin: auto;
+.container-fluid {
+  padding: 0;
+}
+#header {
+  background-image: url(../images/pranjall-kumar-sejqj6Eaqe8-unsplash\ \(1\).jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  color: rgb(19, 16, 16);
+  padding-top: 20px;
+  height: 50vw;
+  margin: auto;
 }
 
-#header p{
-    font-family: 'Zhi Mang Xing', cursive;
-    margin: 0;
-    font-size: 20px;
-    color: #ee670d;
+#header p {
+  font-family: "Zhi Mang Xing", cursive;
+  margin: 0;
+  font-size: 20px;
+  color: #ee670d;
 }
 .nav-items {
-    float: right;
-    margin: 0;
-    font-size: 18px;
+  float: right;
+  margin: 0;
+  font-size: 18px;
 }
-#header .navbar{
-    padding-top: 0;
-    padding-bottom: 0;
+#header .navbar {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
-li a{
-    color: white;
+li a {
+  color: white;
 }
 li a:hover {
-    color: #FE5A07;
+  color: #fe5a07;
 }
-.content{
-    text-align: center;
-    padding: 18%;
+.content {
+  text-align: center;
+  padding: 18%;
 }
 h1 {
-    letter-spacing: 8px;
-    color: rgb(250, 153, 7);
-    font-weight: bolder;
-    font-family: 'Wallpoet', cursive;
-    font-size: 60px;
-    text-shadow: 2px 2px 5px rgb(3, 58, 40);
-  }
-  
-  h1 {
-    letter-spacing: 3px;
-  }
-  #overlay{
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    /* overflow-x: hidden; */
-  }
-  #head{
-    padding-top: 10%;
-  }
-  #aboutus{
-      text-align: center;
-      padding: 50px 250px;
-      border: #000 none solid ;
-  }
-  .text{
-      margin-top: 0px;
-      margin-bottom: 0px;
+  letter-spacing: 8px;
+  color: rgb(250, 153, 7);
+  font-weight: bolder;
+  font-family: "Wallpoet", cursive;
+  font-size: 60px;
+  text-shadow: 2px 2px 5px rgb(3, 58, 40);
 }
-.card-body{
-    height: 11rem;
+
+h1 {
+  letter-spacing: 3px;
 }
-b{
-    color: #FE5A07;
+#overlay {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  /* overflow-x: hidden; */
 }
-#menu{
-    text-align: center;
+#head {
+  padding-top: 10%;
 }
-#orders{
-    text-align: center;
+#aboutus {
+  text-align: center;
+  padding: 50px 250px;
+  border: #000 none solid;
 }
-.order{
-    background-attachment: fixed;
-    background-image: url("/images/fabrizio-pullara-vHRFraV4U00-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 60px;
-    height: 60vw;
-  }
-  .order-overlay{
-    background-color: rgba(0, 0, 0, 0.8);
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 60px;
-    padding-top: 100px;
-  }
-  #regards{
-      color: #FE5A07;
-  }
-  .choice{
-      color: #FE5A07;
-  }
-  #ordermade{
-      color: white;
-  }
-  #yourorder{
-      color: white;
-  }
-  .contactus{
-      text-align: center;
-  }
-  .container-fluid{
-      /* color: black; */
-      background-color: #FE5A07;
-  }
-  td,th{
-    font-size: 20px;
-    color: white;
-  }
-  .btn-orange{
-      background-color: #FE5A07;
-      margin-bottom: 20px;
-  }
-  .heading{
-      text-align: center;
-      color: white;
-      padding: 30px;
-  }
-  form{
-      padding-top: 10%;
-      text-align: left;
-      align-items: flex-end;
-      align-content: flex-end;
-      
-  }
-  select{
-      text-align: right;
-      padding: 5px;
-      align-items: flex-end;
-      align-content: flex-end;
-      margin-bottom: 10px;
-      width: 30vw;
-  }
-  /* .contactheader{
+.text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.card-body {
+  height: 11rem;
+}
+b {
+  color: #fe5a07;
+}
+#menu {
+  text-align: center;
+}
+#orders {
+  text-align: center;
+}
+.order {
+  background-attachment: fixed;
+  background-image: url("/images/fabrizio-pullara-vHRFraV4U00-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  height: 60vw;
+}
+.order-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  padding-top: 100px;
+}
+#regards {
+  color: #fe5a07;
+}
+.choice {
+  color: #fe5a07;
+}
+#ordermade {
+  color: white;
+}
+#yourorder {
+  color: white;
+}
+.contactus {
+  text-align: center;
+}
+.container-fluid {
+  /* color: black; */
+  background-color: #fe5a07;
+}
+td,
+th {
+  font-size: 20px;
+  color: white;
+}
+.btn-orange {
+  background-color: #fe5a07;
+  margin-bottom: 20px;
+}
+.heading {
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+form {
+  padding-top: 10%;
+  text-align: left;
+  align-items: flex-end;
+  align-content: flex-end;
+}
+select {
+  text-align: right;
+  padding: 5px;
+  align-items: flex-end;
+  align-content: flex-end;
+  margin-bottom: 10px;
+  width: 30vw;
+}
+/* .contactheader{
       color: white;
   } */
-
-    
-  
