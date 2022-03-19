@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/style.css" type="text/css" />
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -78,10 +78,9 @@
 
       <!-- //slides -->
       <div class="container carousel-inner" role="listbox">
-
+        
         <div class="row">
-          
-
+      
           <div class="col-md-4">
             <div class="card md-2" id="image0">
               <img
@@ -138,6 +137,9 @@
               </div>
             </div>
           </div>
+          
+        
+          
           <!-- second slide -->
           <div class="col-md-4">
             <div class="card md-2" id="image3">
@@ -206,7 +208,7 @@
         
         <div class="row">
           <div class="col-md-5">
-            <form action="">
+            <form action="" id="new-order">
               <label for="choose">Choose Your Flavor</label>
 
               <select name="browser-default custom-select custom-select-md mb-3" id="name"><br>
@@ -221,16 +223,16 @@
               <label for="choose">Choose Size</label>
               <select name="browser-default custom-select custom-select-md mb-3" id="size">
                 <option selected value="0">Choose size here</option>
-                <option value="large">Large -- ksh. 900</option>
-                <option value="medium">Medium -- ksh. 650</option>
-                <option value="small">Small -- ksh. 400</option>
+                <option value="large">Large ksh. 900</option>
+                <option value="medium">Medium ksh. 650</option>
+                <option value="small">Small ksh. 400</option>
               </select><br>
               <label for="crust">Choose Your Crust</label>
               <select name="browser-default custom-select custom-select-md mb-3" id="crust">
                 <option select value="0">Choose Your Prefered Crust</option>
-                <option value="Crispy">Crispy -- ksh. 200</option>
-                <option value="Stuffed">Stuffed -- ksh. 150</option>
-                <option value="Gluten free">Gluten free-- ksh. 180</option>
+                <option value="Crispy">Crispy ksh. 200</option>
+                <option value="Stuffed">Stuffed ksh. 150</option>
+                <option value="Gluten free">Gluten free ksh. 180</option>
               </select><br>
               <label for="Toppings">Choose Your Toppings at ksh. 70</label>
               <div custom-control custom-checkbox custom-control-inline>
@@ -342,13 +344,17 @@
               <p>&copy; 2022 | Pitstop Pizza</p>
 
             </div>
+            <!-- <footer>
+              <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.pinterest.com" target="_blank"><i class="fa fa-pinterest"></i></a>
+            </footer> -->
 
           </div>
-        
-
-        
 
       </div>
+
 
     </div>
 
