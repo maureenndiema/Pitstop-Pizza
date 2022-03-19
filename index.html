@@ -206,6 +206,7 @@
               <label for="choose">Choose Your Flavor</label><br>
 
               <select name="browser-default custom-select custom-select-md mb-3" id="name"><br>
+                <option selected value="0">Choose your flavor</option>
                 <option value="Barbecue Chicken">Barbecue Chicken</option>
                 <option value="Chicken Mushroom">Chicken Mushroom</option>
                 <option value="Veggie Pizza">Veggie Pizza</option>
@@ -252,13 +253,101 @@
                 <p id="regards">Kindest Regards, Management.</p>
 
               </div>
-
+              <div class="choice">
+                <h2>Here is your order:</h2>
+                <div id="yourorder">
+                  <table class="table tablesm pizzatable"> 
+                   <thead> 
+                    <tr>
+                      <th scope="col">Name</th>
+                      <th scope="col">Size</th>
+                      <th scope="col">Crust</th>
+                      <th scope="col">Topping</th>
+                      <th scope="col">Total</th>
+                    </tr>
+                  </thead>
+                  <tbody id="odermade">
+                    <tr>
+                      <td id="pizzaname"></td>
+                      <td id="pizzasize"></td>
+                      <td id="pizzacrust"></td>
+                      <td id="pizzatopping"></td>
+                      <td id="total"></td>
+                    </tr>
+                  </tbody>
+                  </table>
+                  <p id="no.ofpizza"></p>
+                  <p id="totalbill"></p>
+                  <p id="deliveryprice">Delivery will cost ksh.100</p>
+                  <p id="finalmessage"></p>
+                </div>
+                <button class="btn btn-orange addpizza">Add pizza</button>
+                <button class="btn btn-orange checkout">checkout</button>
+                <button class="btn btn-orange delivery">Home Delivery</button>
+              </div>
+              <div class="delivery">
+                <form action=""> 
+                <div class="formgroup">
+                  <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                    <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
+                    <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
+                    <button class="btn btn-orange" id="final-order">Place Order</button>
+                </div>
+              </form>
+              </div>
             </div>
-
           </div>
         </div>
       </div>
     </div>
+    <div class="container-fluid bg-default" id="contact">
+      <div class="contactus">
+        <h2>Contact Us</h2>
+      </div>
+      <div class="row" id="contactdetails">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-3">
+          <h2>Location</h2>
+          <p>Pitstop Pizza</p>
+          <p>Kiptagich House | Eldoret</p>
+          <p>5097, ELDORET</p>
+        </div>
+        <div class="col-md-3">
+          <h2>Customer Care</h2>
+          <p>pitstop@gmail.com</p>
+          <p>Tel: 02030409050</p>
+          <p>phone no: +254723000090</p>
+        </div>
+        <!-- <div class="col-md-4">
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=kiptagich%20house,%20eldoret&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+              <a href="https://www.whatismyip-address.com"></a><br>
+              <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>
+              <a href="https://www.embedgooglemap.net">using google maps on your website</a>
+              <style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+            </div>
+          </div>
+         -->
+
+        </div>
+
+          <div class="row">
+            <div class="container text-center footer">
+              <p>&copy; 2022 | Pitstop Pizza</p>
+
+            </div>
+
+          </div>
+        
+
+        
+
+      </div>
+
+    </div>
+
   </div>
   </div>
   </body>
