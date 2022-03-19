@@ -83,7 +83,7 @@ b{
 #menu{
     text-align: center;
 }
-#Order{
+#orders{
     text-align: center;
 }
 .order{
@@ -94,7 +94,7 @@ b{
     background-repeat: no-repeat;
     color: white;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     height: 60vw;
   }
   .order-overlay{
@@ -104,3 +104,17 @@ b{
     padding-bottom: 20px;
     padding-left: 60px;
   }
+  #regards{
+      color: #FE5A07;
+  }
+  .choice{
+      color: #FE5A07;
+  }
+  #ordermade{
+      color: white;
+  }
+  #yourorder{
+      color: white;
+  }
+    
+  
