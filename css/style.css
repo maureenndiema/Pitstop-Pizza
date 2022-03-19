@@ -103,6 +103,7 @@ b{
     margin-right: 20px;
     padding-bottom: 20px;
     padding-left: 60px;
+    padding-top: 100px;
   }
   #regards{
       color: #FE5A07;
@@ -116,5 +117,44 @@ b{
   #yourorder{
       color: white;
   }
+  .contactus{
+      text-align: center;
+  }
+  .container-fluid{
+      /* color: black; */
+      background-color: #FE5A07;
+  }
+  td,th{
+    font-size: 20px;
+    color: white;
+  }
+  .btn-orange{
+      background-color: #FE5A07;
+      margin-bottom: 20px;
+  }
+  .heading{
+      text-align: center;
+      color: white;
+      padding: 30px;
+  }
+  form{
+      padding-top: 10%;
+      text-align: left;
+      align-items: flex-end;
+      align-content: flex-end;
+      
+  }
+  select{
+      text-align: right;
+      padding: 5px;
+      align-items: flex-end;
+      align-content: flex-end;
+      margin-bottom: 10px;
+      width: 30vw;
+  }
+  /* .contactheader{
+      color: white;
+  } */
+
     
   
