@@ -1,73 +1,76 @@
-* {
-  font-family: "Poppins", sans-serif;
-}
-.container-fluid {
-  padding: 0;
-}
-#header {
-  background-image: url(../images/pranjall-kumar-sejqj6Eaqe8-unsplash\ \(1\).jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  text-align: center;
-  color: rgb(19, 16, 16);
-  padding-top: 20px;
-  height: 50vw;
-  margin: auto;
-}
 
-#header p {
-  font-family: "Zhi Mang Xing", cursive;
-  margin: 0;
-  font-size: 20px;
-  color: #ee670d;
-}
-.nav-items {
-  float: right;
-  margin: 0;
-  font-size: 18px;
-}
-#header .navbar {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-li {
-  display: inline;
-  margin-right: 20px;
-}
-li a {
-  color: white;
-}
-li a:hover {
-  color: #fe5a07;
-}
-.content {
-  text-align: center;
-  padding: 18%;
-}
-h1 {
-  letter-spacing: 8px;
-  color: rgb(250, 153, 7);
-  font-weight: bolder;
-  font-family: "Wallpoet", cursive;
-  font-size: 60px;
-  text-shadow: 2px 2px 5px rgb(3, 58, 40);
-}
+  * {
+    font-family: "Poppins", sans-serif;
+  }
+  .container-fluid {
+    padding: 0;
+  }
+  #header {
+    background-image: url(../images/pranjall-kumar-sejqj6Eaqe8-unsplash\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: rgb(19, 16, 16);
+    padding-top: 20px;
+    height: 50vw;
+    margin: auto;
+   }
+  
+  #header p {
+    font-family: "Zhi Mang Xing", cursive;
+    margin: 0;
+    font-size: 20px;
+    color: #ee670d;
+  }
+  .nav-items {
+    float: right;
+    margin: 0;
+    font-size: 18px;
+  }
+  #header .navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  li {
+    display: inline;
+    margin-right: 20px;
+  }
+  li a {
+    color: white;
+  }
+  li a:hover {
+    color: #fe5a07;
+  }
+  .content {
+    text-align: center;
+    padding: 18%;
+  }
+  h1 {
+    letter-spacing: 8px;
+    color: rgb(250, 153, 7);
+    font-weight: bolder;
+    font-family: "Wallpoet", cursive;
+    font-size: 60px;
+    text-shadow: 2px 2px 5px rgb(3, 58, 40);
+  }
+  
+  h1 {
+    letter-spacing: 3px;
+  }
+  #overlay {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* overflow-x: hidden; */
+  }
+  #head {
+    padding-top: 10%;
+  }
 
-h1 {
-  letter-spacing: 3px;
-}
-#overlay {
-  background-color: black;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  /* overflow-x: hidden; */
-}
-#head {
-  padding-top: 10%;
-}
+
 #aboutus {
   text-align: center;
   padding: 50px 250px;
@@ -142,7 +145,7 @@ th {
   padding: 30px;
 }
 form {
-  padding-top: 10%;
+  /* padding-top: 10%; */
   text-align: left;
   align-items: flex-end;
   align-content: flex-end;
@@ -160,6 +163,25 @@ select {
   margin-bottom: 5px;
 
 }
-/* .contactheader{
-      color: white;
-  } */
+@media screen and (max-width: 600px) {
+  .nav-items a:not(:first-child) {display: none;}
+  .nav-items a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  #head  {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #aboutus {
+    /* float: right; */
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+  }
+}
