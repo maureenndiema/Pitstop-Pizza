@@ -1,3 +1,4 @@
+
 # Pitstop Pizza
 This is a pizza delivery app that allows the user to select the pizza type, size, crust and toppings then the application calculates the price and delivery fee.
 #### By: **Maureen Ndiema**
@@ -24,3 +25,5 @@ I am always ready to tackle any challenges you face when interacting  with my pr
 # BDD
 Dial log box opens
 user logs in required credentials
+
+

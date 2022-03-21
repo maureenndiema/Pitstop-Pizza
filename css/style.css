@@ -82,6 +82,7 @@
 }
 .card-body {
   height: 11rem;
+
 }
 b {
   color: #fe5a07;
@@ -163,7 +164,77 @@ select {
   margin-bottom: 5px;
 
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 480px) and (max-width: 1000px) {
+  body{
+    background-color: #fe5a07;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: block;
+  }
+  .container-fluid{
+    background-color: #fe5a07;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  #contactus{
+    background-color: #fe5a07;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+  }
+}
+
+
+/* On screens that are 992px or less, set the background color to blue */
+/* @media screen and (max-width: 500px) {
+  h1 {
+    letter-spacing: 1px;
+    color: rgb(250, 153, 7);
+    font-weight: lighter;
+    font-family: "Wallpoet", cursive;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgb(3, 58, 40);
+  }
+ 
+} */
+
+/* On screens that are 600px or less, set the background color to olive */
+/* @media screen and (max-width: 500px) {
+  h1 {
+    letter-spacing: 1px;
+    color: rgb(250, 153, 7);
+    font-weight: lighter;
+    font-family: "Wallpoet", cursive;
+    font-size: 5px;
+    text-shadow: 2px 2px 5px rgb(3, 58, 40);
+    margin-bottom: 20px;
+
+  }
+  #aboutus {
+    text-align: center;
+    padding: 50px 250px;
+    border: #000 none solid;
+    font-size: small;
+    display: block;
+  }
+  #aboutus p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: xx-small;
+    display: block;
+    
+  }
+
+  
+  
+} */
+
+
+
+/* @media screen and (max-width: 600px) {
   .nav-items a:not(:first-child) {display: none;}
   .nav-items a.icon {
     float: right;
@@ -178,10 +249,10 @@ select {
 }
 @media screen and (max-width: 600px) {
   #aboutus {
-    /* float: right; */
+    /* float: right;
     display: block;
     text-align: center;
     width: 100%;
     padding: 50px;
   }
-}
+} */
