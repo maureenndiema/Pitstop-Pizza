@@ -163,6 +163,18 @@ select {
   margin-bottom: 5px;
 
 }
+#image3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#image4{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#image5{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 @media screen and (max-width: 600px) {
   .nav-items a:not(:first-child) {display: none;}
   .nav-items a.icon {
